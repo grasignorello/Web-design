@@ -1,0 +1,93 @@
+.footer {
+	text-align: center;
+}
+
+h2 {
+	color: rgb(59, 32, 88);
+	font-size: 30px;
+	font-family: "Poppins", sans-serif;
+}
+
+h1 {
+	font-family: "Poppins", sans-serif;
+	text-align: center;
+}
+
+p {
+	font-family: "Poppins", sans-serif;
+	font-size: 15px;
+}
+
+a {
+	color: rgb(182, 105, 117);
+	text-decoration: none;
+}
+
+a:hover {
+	color: rgb(206, 56, 78);
+	text-decoration: underline;
+}
+
+header {
+	background-color: pink;
+}
+
+main {
+	background-color: palevioletred;
+}
+
+footer {
+	background-color: rgb(156, 115, 100);
+}
+
+img {
+	max-width: 50%;
+    border: 5px dotted orange; 
+
+}
+
+.gallery {
+    display: grid; /* Utilizza il display grid per creare una griglia */
+    grid-template-columns: 1fr 1fr 1fr; /* Due colonne di larghezza uguale */
+    gap: 10px; /* Spazio tra le immagini */
+}
+
+.gallery img {
+    border: 5px dotted lightcoral;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+.vista {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
+
+.vista img {
+    border: 5px dotted lightcoral;
+    margin: 10px;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Navigazione home page */
+.nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav a {
+    width: 30%;
+    max-width: 30%;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.nav img {
+    max-width: 100%;
+    height: auto;
+}
