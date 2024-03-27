@@ -1,0 +1,63 @@
+
+body {
+    background-color: #f0a2a2;
+    margin: 0;
+    padding: 0;
+    font-family: "Noto Serif", serif;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #ffe0e0;
+}
+
+.title {
+    color: #4b0606;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    font-weight: 600;
+    color: #781111;
+    margin-top: 40px;
+}
+
+p, a, h1, #tribute-info {
+    color: #121212;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    
+}
+
+#img-div {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #950c0c;
+    border-radius: 10px;
+}
+
+a {
+    color: #950c0c;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #781111;
+}
+
+#tribute-info {
+    color: #0c0c0c;
+    margin-bottom: 40px;
+}
